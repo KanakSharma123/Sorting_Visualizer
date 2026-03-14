@@ -39,8 +39,8 @@ Users can adjust the speed and array size to observe algorithm behavior under di
 
 ## Live Demo
 
-- Before_sorting.png
-- After_sorting.png
+- [Before Sorting](https://github.com/KanakSharma123/Sorting_Visualizer/blob/main/Before_sorting.png)
+- [After Sorting](https://github.com/KanakSharma123/Sorting_Visualizer/blob/main/After_sorting.png)
 
 ## Future Improvements
 
