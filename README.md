@@ -39,7 +39,8 @@ Users can adjust the speed and array size to observe algorithm behavior under di
 
 ## Live Demo
 
-(Insert your GitHub Pages link here)
+- Before_sorting.png
+- After_sorting.png
 
 ## Future Improvements
 
