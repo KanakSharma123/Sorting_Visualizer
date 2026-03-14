@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sorting Algorithm Visualizer</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1 style="font-family:verdana;">Sorting Algorithm Visualizer</h1>
+
+<div class="controls">
+
+<button onclick="generateArrays()">Generate Array</button>
+<button onclick="compareSorts()">Compare Algorithms</button>
+<button onclick="toggleDark()">Dark Mode</button>
+
+<label>Speed</label>
+<input type="range" min="10" max="200" value="80" id="speed">
+
+<label>Array Size</label>
+<input type="range" min="10" max="60" value="40" id="size">
+
+</div>
+
+<div class="comparison-container">
+
+<div class="algo-box">
+<h3>Bubble Sort</h3>
+<p>Time Complexity: O(n²)</p>
+<p>Comparisons: <span id="bubble-comp">0</span></p>
+<p>Swaps: <span id="bubble-swap">0</span></p>
+<div class="array" id="bubble"></div>
+</div>
+
+<div class="algo-box">
+<h3>Selection Sort</h3>
+<p>Time Complexity: O(n²)</p>
+<p>Comparisons: <span id="selection-comp">0</span></p>
+<p>Swaps: <span id="selection-swap">0</span></p>
+<div class="array" id="selection"></div>
+</div>
+
+<div class="algo-box">
+<h3>Insertion Sort</h3>
+<p>Time Complexity: O(n²)</p>
+<p>Comparisons: <span id="insertion-comp">0</span></p>
+<p>Swaps: <span id="insertion-swap">0</span></p>
+<div class="array" id="insertion"></div>
+</div>
+
+<div class="algo-box">
+<h3>Quick Sort</h3>
+<p>Time Complexity: O(n log n)</p>
+<p>Comparisons: <span id="quick-comp">0</span></p>
+<p>Swaps: <span id="quick-swap">0</span></p>
+<div class="array" id="quick"></div>
+</div>
+
+<div class="algo-box">
+<h3>Merge Sort</h3>
+<p>Time Complexity: O(n log n)</p>
+<p>Comparisons: <span id="merge-comp">0</span></p>
+<p>Swaps: <span id="merge-swap">0</span></p>
+<div class="array" id="merge"></div>
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,56 @@
+body{
+font-family:Arial;
+text-align:center;
+background:#c5e5c1;
+transition:0.3s;
+}
+
+.dark{
+background:#121212;
+color:white;
+}
+
+.controls{
+margin:20px;
+}
+
+.comparison-container{
+display:grid;
+grid-template-columns: repeat(3,1fr);
+gap:20px;
+padding:20px;
+}
+
+.algo-box{
+background:rgb(195, 216, 218);
+padding:15px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.dark .algo-box{
+background:#1e1e1e;
+}
+
+.array{
+display:flex;
+align-items:flex-end;
+justify-content:center;
+height:220px;
+}
+
+.bar{
+width:6px;
+margin:1px;
+background:#3498db;
+transition:height 0.2s ease, transform 0.2s ease, background 0.2s;
+}
+
+.bar.compare{
+background:red;
+transform:scale(1.1);
+}
+
+.bar.sorted{
+background:#2ecc71;
+}
